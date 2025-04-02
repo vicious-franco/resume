@@ -3,98 +3,197 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IRAKARAMA Jean Francois Leon - Developer Portfolio</title>
+    <title>IRAKARAMA Jean Francois Leon - IT Student & Developer</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="script/pdf.js" defer></script>
   </head>
   <body>
     <header>
       <h1>IRAKARAMA Jean Francois Leon</h1>
-      <div class="contact">
-        <span>📍 Kigali, Rwanda</span>
-        <a href="mailto:irakaramale@gmail.com">📧 irakaramale@gmail.com</a>
-        <a href="tel:+250787723139">📞 +250 787 723 139</a>
+      <p class="subtitle">
+        IT Student | Frontend Developer | Networking Enthusiast
+      </p>
+
+      <div class="contact-bar">
+        <span class="contact-item">📍 Kigali, Rwanda</span>
+        <a href="mailto:irakaramale@gmail.com" class="contact-item"
+          >📧 irakaramale@gmail.com</a
+        >
+        <a href="tel:+250787723139" class="contact-item">📞 +250 787 723 139</a>
       </div>
-      <div class="contact">
-        <a href="https://github.com/vicious-franco" target="_blank"
+      <div class="contact-bar">
+        <a
+          href="https://github.com/vicious-franco"
+          target="_blank"
+          class="contact-item"
           >🔗 GitHub</a
         >
         <a
           href="https://linkedin.com/in/irakarama-jean-francois-leon-070831278"
           target="_blank"
+          class="contact-item"
           >🔗 LinkedIn</a
         >
-        <span>🚗 Driving License: Category B</span>
+        <span class="contact-item">🚗 Driving License: Category B</span>
       </div>
     </header>
 
     <section>
-      <h2>Technical Skills</h2>
-      <div class="skills">
-        <span class="skill">HTML5</span>
-        <span class="skill">CSS3</span>
-        <span class="skill">JavaScript</span>
-        <span class="skill">Tailwind CSS</span>
-        <span class="skill">MySQL</span>
-        <span class="skill">Git</span>
-        <span class="skill">VS Code</span>
-        <span class="skill">LAN/WLAN</span>
-      </div>
+      <h2>Professional Summary</h2>
+      <p>
+        First-year IT student at RP College Kigali with foundational skills in
+        web development (HTML, CSS, JavaScript) and networking. Passionate about
+        building responsive interfaces and solving technical problems. Proven
+        leadership as Class Monitor and quick learner through academic projects.
+      </p>
     </section>
 
     <section>
       <h2>Education</h2>
-      <p>
-        <strong>RP College Kigali</strong> | Year 1 BSc Information Technology |
-        2024–Present
-      </p>
-      <ul>
-        <li>Courses: Web Development, Networking, Database Systems</li>
-        <li>Built responsive UIs with Tailwind CSS</li>
-      </ul>
+      <div class="grid-container">
+        <div>
+          <strong>RP College Kigali</strong>
+          <div class="date">2024 – Present</div>
+        </div>
+        <div>
+          <strong>Advanced Diploma (Year 1)</strong>
+          <ul>
+            <li>
+              Courses: Web Development,C Programming, Networking, Database
+              Systems, Mathematics for Computing
+            </li>
+            <li>Built responsive UI Projects</li>
+          </ul>
+        </div>
 
-      <p>
-        <strong>World Mission High School</strong> | High School Diploma (MPCS)
-        | 2021–2023
-      </p>
+        <div>
+          <strong>World Mission High School</strong>
+          <div class="date">2021 – 2023</div>
+        </div>
+        <div>
+          <strong>High School Diploma </strong>
+          <ul>
+            <li>Achieved academic excellence (Top 5% of class)</li>
+            <li>Class Monitor for 2 consecutive years</li>
+            <li>Led Windows Server administration project</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div>
+        <strong>Frontend Development:</strong>
+        <div class="skills">
+          <span class="skill">HTML5</span>
+          <span class="skill">CSS3</span>
+          <span class="skill">JavaScript</span>
+          <span class="skill">Tailwind CSS</span>
+          <span class="skill">React (Learning)</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 1rem">
+        <strong>Databases:</strong>
+        <div class="skills">
+          <span class="skill">MySQL (Learning)</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 1rem">
+        <strong>Networking & Systems:</strong>
+        <div class="skills">
+          <span class="skill">LAN/WLAN</span>
+          <span class="skill">Windows Server</span>
+          <span class="skill">CCTV Camera Installation</span>
+        </div>
+      </div>
+
+      <div style="margin-top: 1rem">
+        <strong>Tools:</strong>
+        <div class="skills">
+          <span class="skill">Git</span>
+          <span class="skill">GitHub</span>
+          <span class="skill">VS Code</span>
+        </div>
+      </div>
     </section>
 
     <section>
       <h2>Projects</h2>
-      <div class="project">
-        <p>
-          <strong
-            ><a href="https://github.com/vicious-franco/izacu" target="_blank"
-              >Izacu Movie Platform</a
-            ></strong
-          >
-          (In Progress)
-        </p>
+      <div>
+        <strong
+          ><a href="https://github.com/vicious-franco/izacu" target="_blank"
+            >Izacu Movie Platform</a
+          ></strong
+        >
         <ul>
-          <li>Responsive streaming interface with HTML/CSS/JavaScript</li>
-          <li>Features: Dark/light mode, dynamic content loading</li>
-          <li>Tools: Git, GitHub, VS Code</li>
+          <li>Responsive streaming interface using HTML, CSS, JavaScript</li>
+          <li>Future: Integrating React.js for enhanced interactivity</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 1rem">
+        <strong>Academic Projects</strong>
+        <ul>
+          <li>CCTV Camera Installation</li>
+          <li>LAN Network Setup</li>
+          <li>Network cabling simulations</li>
         </ul>
       </div>
     </section>
 
     <section>
-      <h2>Experience</h2>
-      <p>
-        <strong>IT Support Intern</strong> | His First Team Kigali Centre Ltd |
-        2022
-      </p>
+      <h2>Work Experience</h2>
+      <div class="grid-container">
+        <div>
+          <strong>Tech Wise Ltd</strong>
+          <div class="date">Apr – May 2023</div>
+        </div>
+        <div>
+          <strong>Windows Server Intern</strong>
+          <ul>
+            <li>Assisted in server setup and maintenance</li>
+            <li>Learned Active Directory basics</li>
+            <li>Troubleshot network connectivity issues</li>
+          </ul>
+        </div>
+
+        <div>
+          <strong>His First Team Kigali Centre Ltd</strong>
+          <div class="date">Apr – May 2022</div>
+        </div>
+        <div>
+          <strong>Network Technician Intern</strong>
+          <ul>
+            <li>Configured office LAN networks</li>
+            <li>Performed cable management and routing</li>
+            <li>Diagnosed connectivity problems</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
       <ul>
-        <li>Configured office LAN networks</li>
-        <li>Troubleshot connectivity issues</li>
+        <li>
+          Certificate of Appointment as Class Monitor - World Mission High
+          School (2021)
+        </li>
+        <li>Academic Excellence Award - World Mission High School (2023)</li>
       </ul>
     </section>
 
     <section>
       <h2>Languages</h2>
       <div class="skills">
-        <span class="skill">English </span>
-        <span class="skill">Kinyarwanda </span>
+        <span class="skill">English</span>
+        <span class="skill">Kinyarwanda (Native)</span>
       </div>
     </section>
+
+    <script></script>
   </body>
 </html>
