@@ -1,0 +1,81 @@
+:root {
+  --primary: #4f46e5;
+  --dark: #1e293b;
+  --light: #f8fafc;
+}
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--dark);
+}
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+h1 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.3rem;
+  color: var(--dark);
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+.skill {
+  background: #e2e8f0;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+.project {
+  margin-bottom: 1.5rem;
+}
+.project a {
+  font-weight: bold;
+}
+#downloadBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#downloadBtn:hover {
+  background: #4338ca;
+}
+@media print {
+  #downloadBtn {
+    display: none;
+  }
+}
